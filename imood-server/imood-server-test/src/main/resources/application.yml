@@ -1,0 +1,56 @@
+server:
+  port: 8202
+
+spring:
+  application:
+    name: IMOOD-Server-Test
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+
+
+  boot:
+    admin:
+      client:
+#        url: http://localhost:8401
+        url: http://${imood-monitor-admin}:8401
+        username: imood
+        password: 123456
+
+info:
+  app:
+    name: ${spring.application.name}
+    description: "@project.description@"
+    version: "@project.version@"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 20
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    instance-info-replication-interval-seconds: 30
+    registry-fetch-interval-seconds: 3
+    serviceUrl:
+#      defaultZone: http://imood:123456@localhost:7001/register/eureka/
+      defaultZone: http://imood:123456@${imood-register}:7001/register/eureka/
+security:
+  oauth2:
+    resource:
+      id: ${spring.application.name}
+#      user-info-uri: http://localhost:8301/auth/user
+      user-info-uri: http://${imood-gateway}:8301/auth/user
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  shareSecurityContext: true  # 配置把SecurityContext对象从你当前主线程传输到Hystrix线程。

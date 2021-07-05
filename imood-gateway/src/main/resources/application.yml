@@ -1,0 +1,74 @@
+server:
+  port: 8301
+
+spring:
+  application:
+    name: IMOOD-Gateway
+
+
+  boot:
+    admin:
+      client:
+#        url: http://localhost:8401
+        url: http://${imood-monitor-admin}:8401
+        username: imood
+        password: 123456
+
+
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 20
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    instance-info-replication-interval-seconds: 30
+    registry-fetch-interval-seconds: 3
+    serviceUrl:
+#      defaultZone: http://imood:123456@localhost:7001/register/eureka/
+      defaultZone: http://imood:123456@${imood-register}:7001/register/eureka/
+
+
+zuul:
+  routes:
+    auth:
+      path: /auth/**      # 所有以/auth开头的请求都会被转发到名称为FEBS-Auth的服务上
+      serviceId: IMOOD-Auth
+      sensitiveHeaders: "*"   # sensitiveHeaders设置为*，表示不过滤请求头信息，即请求的请求头信息将原封不动的转发出去
+    system:
+      path: /system/**
+      serviceId: IMOOD-Server-System
+      sensitiveHeaders: "*"
+    test:
+      path: /test/**
+      serviceId: IMOOD-Server-Test
+      sensitiveHeaders: "*"
+  retryable: true
+  ignored-services: "*"
+  ribbon:
+    eager-load:
+      enabled: true
+
+  SendErrorFilter:
+    error:
+      disable: true
+
+ribbon:
+  ReadTimeout: 3000
+
+info:
+  app:
+    name: ${spring.application.name}
+    description: "@project.description@"
+    version: "@project.version@"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS

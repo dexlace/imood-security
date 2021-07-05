@@ -1,0 +1,158 @@
+2021-07-05 16:36:19 INFO  [springAppName_IS_UNDEFINED] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ed407d81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-05 16:36:20 INFO  [IMOOD-Gateway] main com.dexlace.gateway.IMoodGatewayApplication No active profile set, falling back to default profiles: default
+2021-07-05 16:36:21 INFO  [IMOOD-Gateway] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=05806db2-6c80-3cdc-a3e2-393443e77984
+2021-07-05 16:36:21 INFO  [IMOOD-Gateway] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ed407d81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-05 16:36:21 INFO  [IMOOD-Gateway] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8301 (http)
+2021-07-05 16:36:21 INFO  [IMOOD-Gateway] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8301"]
+2021-07-05 16:36:21 INFO  [IMOOD-Gateway] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-07-05 16:36:21 INFO  [IMOOD-Gateway] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-07-05 16:36:22 INFO  [IMOOD-Gateway] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-07-05 16:36:22 INFO  [IMOOD-Gateway] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 2060 ms
+2021-07-05 16:36:22 INFO  [IMOOD-Gateway] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-07-05 16:36:22 INFO  [IMOOD-Gateway] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@32ec9c90
+2021-07-05 16:36:24 INFO  [IMOOD-Gateway] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2021-07-05 16:36:24 INFO  [IMOOD-Gateway] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2021-07-05 16:36:24 INFO  [IMOOD-Gateway] main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 4f447088-9a88-4501-9e34-12a3ecdf1f27
+
+2021-07-05 16:36:24 INFO  [IMOOD-Gateway] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54c60202, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ef31f71, org.springframework.security.web.header.HeaderWriterFilter@4b765e92, org.springframework.security.web.authentication.logout.LogoutFilter@1f78d415, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35787726, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42679fc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7889b4b9, org.springframework.security.web.session.SessionManagementFilter@68a305eb, org.springframework.security.web.access.ExceptionTranslationFilter@9df564f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16d0e521]
+2021-07-05 16:36:24 INFO  [IMOOD-Gateway] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-07-05 16:36:25 INFO  [IMOOD-Gateway] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-05 16:36:27 INFO  [IMOOD-Gateway] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-07-05 16:36:27 INFO  [IMOOD-Gateway] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 23 endpoint(s) beneath base path '/actuator'
+2021-07-05 16:36:27 INFO  [IMOOD-Gateway] main org.springframework.cloud.netflix.zuul.ZuulFilterInitializer Starting filter initializer
+2021-07-05 16:36:28 INFO  [IMOOD-Gateway] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2021-07-05 16:36:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2021-07-05 16:36:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2021-07-05 16:36:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Application is null : false
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2021-07-05 16:36:29 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient The response status is 200
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1625474190227 with initial instances count: 1
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application IMOOD-GATEWAY with eureka with status UP
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1625474190243, current=UP, previous=STARTING]
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_IMOOD-GATEWAY/www.imoocnews.com:IMOOD-Gateway:8301: registering service...
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8301"]
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_IMOOD-GATEWAY/www.imoocnews.com:IMOOD-Gateway:8301 - registration status: 204
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8301 (http) with context path ''
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8301
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.dexlace.gateway.IMoodGatewayApplication Started IMoodGatewayApplication in 13.507 seconds (JVM running for 15.131)
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-IMOOD-Auth
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.BaseLoadBalancer Client: IMOOD-Auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 16:36:30 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client IMOOD-Auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Auth,current list of Servers=[www.imoocnews.com:8101],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:www.imoocnews.com:8101;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1f19d423
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-IMOOD-Server-System
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.BaseLoadBalancer Client: IMOOD-Server-System instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client IMOOD-Server-System initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@460b77d6
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] RMI TCP Connection(1)-192.168.205.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] RMI TCP Connection(1)-192.168.205.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] RMI TCP Connection(1)-192.168.205.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 16 ms
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Server-Test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-IMOOD-Server-Test
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.BaseLoadBalancer Client: IMOOD-Server-Test instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client IMOOD-Server-Test initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@552cb0d5
+2021-07-05 16:36:31 INFO  [IMOOD-Gateway] PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 16:37:17 INFO  [IMOOD-Gateway] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 42d0802f1542
+2021-07-05 16:37:32 INFO  [IMOOD-Gateway] PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Server-Test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 16:38:02 INFO  [IMOOD-Gateway] PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 18:29:16 INFO  [springAppName_IS_UNDEFINED] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5653833] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-05 18:29:17 INFO  [IMOOD-Gateway] main com.dexlace.gateway.IMoodGatewayApplication No active profile set, falling back to default profiles: default
+2021-07-05 18:29:20 INFO  [IMOOD-Gateway] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=05806db2-6c80-3cdc-a3e2-393443e77984
+2021-07-05 18:29:20 INFO  [IMOOD-Gateway] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5653833] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-05 18:29:20 INFO  [IMOOD-Gateway] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8301 (http)
+2021-07-05 18:29:20 INFO  [IMOOD-Gateway] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8301"]
+2021-07-05 18:29:20 INFO  [IMOOD-Gateway] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-07-05 18:29:20 INFO  [IMOOD-Gateway] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-07-05 18:29:21 INFO  [IMOOD-Gateway] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-07-05 18:29:21 INFO  [IMOOD-Gateway] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3202 ms
+2021-07-05 18:29:21 INFO  [IMOOD-Gateway] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-07-05 18:29:21 INFO  [IMOOD-Gateway] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@568750b7
+2021-07-05 18:29:24 INFO  [IMOOD-Gateway] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2021-07-05 18:29:24 INFO  [IMOOD-Gateway] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2021-07-05 18:29:25 INFO  [IMOOD-Gateway] main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: e300d519-0a91-4e59-acbe-8870f34a20f0
+
+2021-07-05 18:29:25 INFO  [IMOOD-Gateway] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dba05b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@491cafec, org.springframework.security.web.header.HeaderWriterFilter@50b734c4, org.springframework.security.web.authentication.logout.LogoutFilter@1625789b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fa86cb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d653e41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@541afb85, org.springframework.security.web.session.SessionManagementFilter@6274f21c, org.springframework.security.web.access.ExceptionTranslationFilter@4776e209, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bcae9]
+2021-07-05 18:29:25 INFO  [IMOOD-Gateway] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-07-05 18:29:25 INFO  [IMOOD-Gateway] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-05 18:29:26 INFO  [IMOOD-Gateway] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-07-05 18:29:26 INFO  [IMOOD-Gateway] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 23 endpoint(s) beneath base path '/actuator'
+2021-07-05 18:29:27 INFO  [IMOOD-Gateway] main org.springframework.cloud.netflix.zuul.ZuulFilterInitializer Starting filter initializer
+2021-07-05 18:29:27 INFO  [IMOOD-Gateway] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2021-07-05 18:29:27 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2021-07-05 18:29:27 INFO  [IMOOD-Gateway] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2021-07-05 18:29:27 INFO  [IMOOD-Gateway] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2021-07-05 18:29:27 INFO  [IMOOD-Gateway] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2021-07-05 18:29:27 INFO  [IMOOD-Gateway] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2021-07-05 18:29:27 INFO  [IMOOD-Gateway] main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Application is null : false
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient The response status is 200
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1625480968810 with initial instances count: 0
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application IMOOD-GATEWAY with eureka with status UP
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1625480968814, current=UP, previous=STARTING]
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_IMOOD-GATEWAY/www.imoocnews.com:IMOOD-Gateway:8301: registering service...
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8301"]
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8301 (http) with context path ''
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8301
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] main com.dexlace.gateway.IMoodGatewayApplication Started IMoodGatewayApplication in 14.281 seconds (JVM running for 15.77)
+2021-07-05 18:29:28 INFO  [IMOOD-Gateway] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_IMOOD-GATEWAY/www.imoocnews.com:IMOOD-Gateway:8301 - registration status: 204
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-IMOOD-Auth
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.BaseLoadBalancer Client: IMOOD-Auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client IMOOD-Auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2ed7978c
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-IMOOD-Server-System
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.BaseLoadBalancer Client: IMOOD-Server-System instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client IMOOD-Server-System initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1859e55c
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Server-Test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-IMOOD-Server-Test
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.BaseLoadBalancer Client: IMOOD-Server-Test instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client IMOOD-Server-Test initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=IMOOD-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@20155dae
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] RMI TCP Connection(2)-192.168.205.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] RMI TCP Connection(2)-192.168.205.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-07-05 18:29:29 INFO  [IMOOD-Gateway] RMI TCP Connection(2)-192.168.205.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2021-07-05 18:29:31 INFO  [IMOOD-Gateway] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Disable delta property : false
+2021-07-05 18:29:31 INFO  [IMOOD-Gateway] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2021-07-05 18:29:31 INFO  [IMOOD-Gateway] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2021-07-05 18:29:31 INFO  [IMOOD-Gateway] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application is null : false
+2021-07-05 18:29:31 INFO  [IMOOD-Gateway] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2021-07-05 18:29:31 INFO  [IMOOD-Gateway] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Application version is -1: false
+2021-07-05 18:29:31 INFO  [IMOOD-Gateway] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2021-07-05 18:29:31 INFO  [IMOOD-Gateway] DiscoveryClient-CacheRefreshExecutor-0 com.netflix.discovery.DiscoveryClient The response status is 200
+2021-07-05 18:31:00 INFO  [IMOOD-Gateway] PollingServerListUpdater-1 com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 18:31:30 INFO  [IMOOD-Gateway] PollingServerListUpdater-1 com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Server-Test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 18:31:44 INFO  [IMOOD-Gateway] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 42d0802f1542
+2021-07-05 18:32:00 INFO  [IMOOD-Gateway] PollingServerListUpdater-1 com.netflix.config.ChainedDynamicProperty Flipping property: IMOOD-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-07-05 18:32:04 INFO  [IMOOD-Gateway] http-nio-8301-exec-6 com.dexlace.gateway.filter.IMoodGatewayRequestFilter 请求URI：/auth/captcha，HTTP Method：GET，请求IP：0:0:0:0:0:0:0:1，ServerId：IMOOD-Auth
+2021-07-05 18:34:12 INFO  [IMOOD-Gateway] http-nio-8301-exec-6 com.dexlace.gateway.filter.IMoodGatewayRequestFilter 请求URI：/auth/captcha，HTTP Method：GET，请求IP：0:0:0:0:0:0:0:1，ServerId：IMOOD-Auth
+2021-07-05 18:34:28 INFO  [IMOOD-Gateway] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
